@@ -6,10 +6,40 @@ secondary: #e676e6
 s-light: #66ffa6
 s-dark: #00b248
 */
+
+/* Global Styles */
 body {
     background-color: #ff4081;
 }
 
 h1, h2 {
     font-family: 'Rammetto One', cursive; 
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    font-size: 16px;
+}
+
+/* Header */
+
+header li {
+    margin: 0 10px;
+}
+
+header li:first-of-type {
+    margin-left: 0;
+}
+
+/* Footer Styles*/
+footer a {
+
 }
